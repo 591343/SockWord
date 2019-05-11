@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    -<RelativeLayout
+    android:layout_height="50dp"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="@android:color/holo_blue_light">
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@mipmap/fanhui"
+        android:layout_marginLeft="15dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/back_btn"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:text="锁屏背单词"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_height="30dp"
+        android:layout_width="60dp"
+        android:background="@drawable/btn_kuang"
+        android:layout_centerVertical="true"
+        android:id="@+id/i_know_btn"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:text="我会了"
+        android:padding="3dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
+
+
+    -<RelativeLayout
+    android:layout_height="85dp"
+    android:layout_width="match_parent"
+    android:layout_marginTop="80dp">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/word_text"
+        android:textSize="50dp"
+        android:textColor="@android:color/holo_blue_light"
+        android:text="parent"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_height="27dp"
+        android:layout_width="27dp"
+        android:background="@mipmap/vioce"
+        android:id="@+id/play_vioce"
+        android:layout_marginRight="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/english_text"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_blue_light"
+        android:text="[perent]"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/china_text"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_blue_light"
+        android:text="父母"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"/>
+
+</LinearLayout>
